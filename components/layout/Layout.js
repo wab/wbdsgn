@@ -17,32 +17,9 @@ const MainWrapper = styled.main`
 `;
 
 const Layout = ({ children }) => (
-  <div className="container">
+  <>
     <Head>
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-
-      {/* socials meta */}
-      <meta property="og:url" content="https://wabdesign.fr" />
-      <meta property="og:type" content="website" />
-      <meta property="og:title" content="jérôme boileux" />
-      <meta
-        property="og:description"
-        content="frontend developer in Rennes [FR]"
-      />
-      <meta
-        property="og:image"
-        content="https://wabdesign.fr/banner-wide.png"
-      />
-      <meta property="og:image:width" content="1600" />
-      <meta property="og:image:height" content="630" />
-      <meta name="twitter:card" content="summary" />
-      <meta name="twitter:site" content="@wabesign" />
-      <meta name="twitter:title" content="jérôme boileux" />
-      <meta
-        name="twitter:description"
-        content="frontend developer in Rennes [FR]"
-      />
-      <meta name="twitter:image" content="https://wabdesign.fr/banner.png" />
 
       {/* facicons */}
       <link rel="icon" href="/favicon.ico" />
@@ -75,11 +52,10 @@ const Layout = ({ children }) => (
     <MainWrapper>{children}</MainWrapper>
 
     <Footer />
-  </div>
+  </>
 );
 
 Layout.propTypes = {
-  title: PropTypes.string,
   children: PropTypes.element,
 };
 
