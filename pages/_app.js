@@ -1,7 +1,12 @@
+import { useEffect } from 'react';
 import PropTypes from 'prop-types';
+import Prism from 'prismjs';
 import Layout from '@components/layout';
 
 function App({ Component, pageProps }) {
+  useEffect(() => {
+    Prism.highlightAll();
+  }, []);
   return (
     <>
       <Layout>
