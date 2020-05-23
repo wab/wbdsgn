@@ -12,7 +12,6 @@ const Wrapper = styled.div`
 
   pre {
     background: #122738;
-    color: white;
     padding: 1rem;
     border-radius: 6px;
   }

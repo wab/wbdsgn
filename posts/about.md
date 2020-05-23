@@ -3,10 +3,12 @@ title: 'jérôme boileux • frontend developer'
 description: 'making quality websites and webapps'
 ---
 
-# Hey! Welcome&nbsp; <span role="img" aria-label="hello">👋</span>
-
-
 ```javascript
-function introduction(location = 'Rennes, France') {
-    return `I'm a frontend developer based in ${location}`;
+function sayHello(name) {
+    return `Hey ${name}! Welcome 👋`;
 }
+
+sayHello(you);
+```
+
+I'm a frontend developer for about 10 years, based in *Rennes, France*
