@@ -6,6 +6,11 @@ const Wrapper = styled.div`
     font-size: 2rem;
   }
 
+  a {
+    color: #25557c;
+    text-decoration: underline;
+  }
+
   p {
     margin-bottom: 1rem;
   }
@@ -14,6 +19,8 @@ const Wrapper = styled.div`
     background: #122738;
     padding: 1rem;
     border-radius: 6px;
+    max-width: 480px;
+    margin: auto;
   }
 
   code {

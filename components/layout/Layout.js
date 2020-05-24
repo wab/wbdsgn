@@ -11,8 +11,8 @@ const MainWrapper = styled.main`
   justify-content: start;
   align-items: center;
   min-height: calc(75vh - 100px);
-  padding: 1rem;
-  background-color: #f4f4f4;
+  padding: 2rem;
+  background-color: #f9f9f9;
   border-bottom: 1px solid #f2f2f2;
 `;
 
