@@ -1,35 +1,6 @@
 import styled from 'styled-components';
 
-const Wrapper = styled.footer`
-  height: 100px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-
-  img {
-    margin-left: 0.5rem;
-    margin-right: 0.5rem;
-    height: 1em;
-  }
-
-  ul {
-    display: flex;
-    list-style: none;
-    justify-content: center;
-    align-items: center;
-    padding: 0;
-  }
-
-  li {
-    margin: 0 1rem;
-  }
-
-  a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-`;
+const Wrapper = styled.footer``;
 
 const Footer = () => (
   <Wrapper>
@@ -50,7 +21,7 @@ const Footer = () => (
           target="_blank"
           rel="noopener noreferrer"
         >
-          <img src="/twitter.svg" alt="twitter Logo" />
+          <img src="/twitter.svg" width="32" alt="twitter Logo" />
           twitter
         </a>
       </li>

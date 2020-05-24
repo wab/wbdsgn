@@ -1,15 +1,6 @@
 import styled from 'styled-components';
 
-const Wrapper = styled.header`
-  padding: 1rem 0;
-  height: 25vh;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  border-bottom: 1px solid #eee;
-`;
+const Wrapper = styled.header``;
 
 const Header = () => (
   <Wrapper>

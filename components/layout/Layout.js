@@ -4,20 +4,10 @@ import Head from 'next/head';
 import Header from './Header';
 import Footer from './Footer';
 
-const MainWrapper = styled.main`
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: start;
-  align-items: center;
-  min-height: calc(75vh - 100px);
-  padding: 2rem;
-  background-color: #f9f9f9;
-  border-bottom: 1px solid #f2f2f2;
-`;
+const MainWrapper = styled.main``;
 
 const Layout = ({ children }) => (
-  <>
+  <div className="container mx-auto">
     <Head>
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
@@ -52,7 +42,7 @@ const Layout = ({ children }) => (
     <MainWrapper>{children}</MainWrapper>
 
     <Footer />
-  </>
+  </div>
 );
 
 Layout.propTypes = {
