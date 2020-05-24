@@ -1,5 +1,30 @@
 /* purgecss start ignore */
 @tailwind base;
+
+h1 {
+  @apply text-xl text-gray-800 font-semibold mb-3;
+}
+
+h2 {
+  @apply text-lg text-gray-800 mb-2;
+}
+
+h3 {
+  @apply text-lg mb-2;
+}
+
+p {
+  @apply mb-2;
+}
+
 @tailwind components;
 /* purgecss end ignore */
 @tailwind utilities;
+
+main a {
+  @apply text-blue-600 transition-colors duration-200 ease-in;
+}
+
+main a:hover {
+  @apply text-blue-800 underline;
+}

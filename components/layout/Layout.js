@@ -1,10 +1,8 @@
 import PropTypes from 'prop-types';
-import styled from 'styled-components';
 import Head from 'next/head';
 import Header from './Header';
+import Navigation from './Navigation';
 import Footer from './Footer';
-
-const MainWrapper = styled.main``;
 
 const Layout = ({ children }) => (
   <div className="container mx-auto">
@@ -38,8 +36,9 @@ const Layout = ({ children }) => (
     </Head>
 
     <Header />
+    <Navigation />
 
-    <MainWrapper>{children}</MainWrapper>
+    <main>{children}</main>
 
     <Footer />
   </div>

@@ -1,10 +1,12 @@
 import PropTypes from 'prop-types';
-import styled from 'styled-components';
-
-const Wrapper = styled.div``;
 
 function PostBody({ content }) {
-  return <Wrapper dangerouslySetInnerHTML={{ __html: content }} />;
+  return (
+    <div
+      className="max-w-xl mx-auto py-6 text-justify"
+      dangerouslySetInnerHTML={{ __html: content }}
+    />
+  );
 }
 
 PostBody.propTypes = {

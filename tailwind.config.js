@@ -1,7 +1,14 @@
 module.exports = {
   purge: ['./pages/**/*.js', './components/**/*.js'],
   theme: {
-    extend: {},
+    extend: {
+      fontSize: {
+        tiny: '.875rem',
+        base: '1rem',
+        lg: '1.4rem',
+        xl: '2rem',
+      },
+    },
     container: {
       center: true,
       padding: {

@@ -1,5 +1,5 @@
 ---
-title: 'jérôme boileux • frontend developer'
+title: 'jérôme boileux • frontend engineer'
 description: 'making quality websites and webapps'
 ---
 
@@ -11,11 +11,11 @@ function sayHello(name) {
 sayHello(you);
 ```
 
-# making things on the web
+# making web things
 
 I'm a **frontend developer** for about 10 years, based in *Rennes, France*, particularly concerned with **quality** and **simplicity**.
 
-## making webapps
+## ↳ making webapps
 
 Currently @ [Yousign](https://yousign.com) on the saas product team, i'm working on a new javascript web application to make *eSignature experience so easy*. I use libraries like **React**, **Styled Components**, **react-query**, **Downshift** etc.
 
@@ -23,9 +23,9 @@ We are a team with high demands on quality and scalability, so we are doing lot 
 
 We are also trying, with designers team, to maintain our Design System as a centerpiece. A **Storybook** that you can [consult here](https://storybook.yousign.app) by the way. 🙂
 
-## making websites & eshops
+## ↳ making websites & eshops
 
-I'm also used to take projects or side-projects as a freelancer. From this point of view, I most often take part in smaller projects such as websites or online shops by trying to propose the most flexible solutions. 
+I'm also used to take projects or side-projects as a freelancer. From this point of view, I most often take part in smaller projects such as websites or online shops by trying to propose the most flexible solutions.
 [<abbr title="Javascript APIs Markup">JAMStack</abbr>](https://jamstack.wtf/) & <abbr title="Static Site Generation">SSG</abbr> are the things i usually practice with framework as **GatsbyJS** or **NextJS** and some new kind of <abbr title='Content Managing System'>CMS</abbr> [Sanity](https://www.sanity.io/), [Forestry](https://forestry.io/) or [TinaCMS](https://tinacms.org/).
 
 Take a ride to my last eshop reference (which i made with GatsbyJS / Sanity & Snipcart) : [Demisel Bijoux](http://demiselbijoux.com/)
