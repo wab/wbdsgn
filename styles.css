@@ -28,3 +28,19 @@ main a {
 main a:hover {
   @apply text-blue-800 underline;
 }
+
+@keyframes hideshow {
+  0% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.25;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+
+.bear {
+  animation: hideshow 40s ease infinite;
+}
